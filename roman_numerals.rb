@@ -19,6 +19,6 @@ def to_roman(number)
 
 end
 
-input.each do |number|	
+input.each do |number|
 	p "#{number} = #{to_roman number}"
 end
